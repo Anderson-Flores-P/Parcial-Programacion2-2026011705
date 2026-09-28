@@ -9,7 +9,6 @@ public abstract class Empleado {
         this.estrategia = estrategia;
     }
 
-    // Método concreto para inyectar la estrategia
     public void cambiarEstrategia(EstrategiaComision nueva) {
         this.estrategia = nueva;
     }
